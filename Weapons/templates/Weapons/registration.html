@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+{% extends 'Weapons/base.html'%}
+{% load static %}
+<body>
+{% block loginpage %}
+<div class="container">
+    <form method="post"style="color:white;">
+        {{ form.as_p }}
+        {% csrf_token %}
+        <input type="Submit" class="btn btn-sucess" value="Register Here" style="color:blue;">
+
+
+
+        <input type="submit" style="color:blue;">
+
+    </form>
+</div>
+{% endblock %}
+</body>
+</html>

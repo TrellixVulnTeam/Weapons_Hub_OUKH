@@ -1,0 +1,35 @@
+ul li{
+	float: left;
+	list-style: none;
+	width: 150px;
+	padding:  0px 0px;
+	text-align: center;
+	font-size: 30px;
+	background-color: lavender
+
+}
+ul li ul li{
+	display: none;
+}
+ul li:hover{
+	background-color: #009900;
+	border-radius: 5px;
+
+}
+ul li a{
+	display: block;
+}
+ul li:hover ul li{
+	display: block;
+	color: black;
+	font-size: 25px;
+	width: 340px;
+
+
+}
+ul li ul li a{
+	text-decoration: none;
+}
+.nav navbar-nav navbar-right{
+    padding:0;
+}

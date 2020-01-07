@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href='{% static "css/welcome.css" %}'>
+
+    <link rel="icon" img src="'{% static "images/p92.jpg" %}'">
+    <title>Weapons Hub</title>
+</head>
+<body id="bg" style="background-image: url('{% static "images/bg1.jpg" %}')">
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div >
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">A & A Private Limited</a>
+      <ul >
+
+        <li><a>Riffiles</a>
+					<ul>
+						<li><a href="m416_details.html"> M416</li>
+						<li><a href="m16a4_details.html"> M16A4</li>
+						<li><a href="m762_details.html">M762</li>
+						<li><a href="ump45_details.html">UMP45</li>
+						<li><a href="groza_details.html">Groza</li>
+						<li><a href="aug_details.html">Aug</li>
+
+
+					</ul>
+				</li>
+				<li><a>Snipers</a>
+					<ul>
+						<li><a href="kar98_details.html">KAR98</li>
+						<li><a href="slr_details.html">SLR</li>
+						<li><a href="mini14_details.html">Mini 14</li>
+
+					</ul>
+				</li>
+				<li><a>shot gun</a>
+					<ul>
+						<li><a href="s1897_details.html">S1897</li>
+						<li><a href="s12k_details.html">S12K</li>
+						<li><a href="s686_details.html">S686</li>
+					</ul>
+				</li>
+				<li><a>Pistol</a>
+					<ul>
+						<li><a href="p92_details.html">P92</li>
+						<li><a href="918c_details.html">P18C</li>
+						<li><a href="p1911_details.html">P1911</li>
+						<li><a href="r45_details.html">R45</li>
+						<li><a href="de_details.html">Desert Eagle</li>
+
+					</ul>
+				</li>
+
+
+      </ul>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+
+
+      <ol class="nav navbar-nav navbar-right">
+
+        <li><a href="/accounts/logout">Logout</a></li>
+
+
+      </ol>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+{% block loginpage %}
+{% endblock %}
+</body>
+</html>

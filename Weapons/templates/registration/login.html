@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+{% extends 'Weapons/base.html'%}
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>login page</title>
+    <link rel="stylesheet" href='{% static "base.css" %}' type="text/css">
+
+</head>
+<body>
+{% block loginpage %}
+<div class="container" align="center" style="color:white;">
+    <h1>loginform</h1>
+    <form method="post">
+        {{form.as_p}}
+        {% csrf_token %}
+        <button type="Submit" class="btn btn-lg btn-primary">Login</button>
+    </form>
+
+
+</div>
+{% endblock %}
+</body>
+</html>
