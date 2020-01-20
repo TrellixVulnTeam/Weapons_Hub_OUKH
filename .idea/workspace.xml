@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60bb42d2-6daa-454a-bd33-e1618509e712" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Weapons/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Weapons/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weapons/templates/Weapons/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/Weapons/templates/Weapons/base.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
