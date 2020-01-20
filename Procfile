@@ -1,1 +1,1 @@
-web: gunicorn Weapons_Hub.wsgi --log-file
+web: gunicorn Weapons_Hub.wsgi --log-file -
