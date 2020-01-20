@@ -1,1 +1,1 @@
-Web:gunicorn MBF.wsgi
+web: gunicorn Weapons_Hub.wsgi --log-file
