@@ -5,9 +5,9 @@ from django.http import HttpResponse
 
 # Create your views here.
 def Welcome(request):
-    return render(request, 'weapons/Welcome.html')
+    return render(request, 'Weapons/Welcome.html')
 def Home(request):
-    return render(request, 'weapons/base.html')
+    return render(request, 'Weapons/base.html')
 
 def logoutpage(request):
     return render(request,'Weapons/logout.html')
